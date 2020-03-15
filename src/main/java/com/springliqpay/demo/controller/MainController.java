@@ -25,7 +25,6 @@ public class MainController {
         LiqPay liqpay = new LiqPay("i66823577067"
                 , "RUtwa6WZfpnbcgEZKANifBXc8Rz0z2usEp9a8kP9");
         String html = liqpay.cnb_form(params);
-        System.out.println(html);
         return html;
     }
 
